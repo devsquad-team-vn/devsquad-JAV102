@@ -1,0 +1,92 @@
+<?xml version="1.0" ?>
+<mxfile host="app.diagrams.net" agent="Antigravity" version="24.0.0">
+  <diagram id="diag-admin" name="3. Use Case Quản lý (Admin)">
+    <mxGraphModel dx="1400" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="hdr" parent="1" value="SƠ ĐỒ USE CASE CHI TIẾT TÁC NHÂN QUẢN LÝ (ADMIN)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1e3a8a;strokeColor=#1e3a8a;fontColor=#ffffff;fontStyle=1;fontSize=14;align=center;" vertex="1">
+          <mxGeometry x="50" y="20" width="1180" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="act_nv" parent="1" value="Nhân viên&#10;(Thu ngân)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#f1f5f9;strokeColor=#64748b;strokeWidth=1.5;fontStyle=1;fontSize=11;" vertex="1">
+          <mxGeometry x="70" y="130" width="45" height="80" as="geometry"/>
+        </mxCell>
+        <mxCell id="act_adm" parent="1" value="Quản lý&#10;(Admin)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fed7aa;strokeColor=#ea580c;strokeWidth=2;fontStyle=1;fontSize=12;" vertex="1">
+          <mxGeometry x="70" y="390" width="50" height="90" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_gen" parent="1" value="Kế thừa&#10;(Generalization)" style="endArrow=block;endFill=0;endSize=14;html=1;rounded=0;strokeWidth=2;strokeColor=#ea580c;fontColor=#c2410c;fontStyle=1;fontSize=10;labelBackgroundColor=#ffffff;" edge="1" source="act_adm" target="act_nv">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="subsys" parent="1" value="HỆ THỐNG TEA POS - PHÂN HỆ QUẢN TRỊ TOÀN DIỆN" style="shape=umlFrame;whiteSpace=wrap;html=1;width=310;height=30;boundedLbl=1;verticalAlign=top;align=left;spacingLeft=10;fillColor=#f8fafc;strokeColor=#475569;strokeWidth=1.5;fontStyle=1;fontSize=11;fontColor=#334155;" vertex="1">
+          <mxGeometry x="220" y="80" width="1010" height="750" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc00" parent="1" value="Toàn bộ chức năng bán hàng tại quầy&#10;(Bán hàng, In hóa đơn, Đổi mật khẩu)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f1f5f9;strokeColor=#94a3b8;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="300" y="110" width="270" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc01" parent="1" value="Quản lý Thực đơn (Thêm, Sửa, Ngừng bán)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="300" y="200" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc02" parent="1" value="Quản lý Topping &amp; Đơn giá" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="700" y="200" width="230" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc03" parent="1" value="Quản lý Danh mục đồ uống" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="300" y="290" width="250" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc04" parent="1" value="Quản lý Chương trình Voucher khuyến mãi" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="700" y="290" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc05" parent="1" value="Quản lý Tài khoản Nhân viên &amp; Phân quyền" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="300" y="380" width="290" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc06" parent="1" value="Quản lý Khách hàng &amp; Chính sách tích điểm" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="700" y="380" width="290" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc07" parent="1" value="Tra cứu Hóa đơn toàn hệ thống" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="300" y="480" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc08" parent="1" value="Báo cáo Doanh thu (Ngày / Tháng / Nhóm)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="300" y="570" width="280" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc09" parent="1" value="Thống kê Top món bán chạy" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="700" y="570" width="240" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="uc10" parent="1" value="Xem Nhật ký hoạt động (Audit Trail)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff7ed;strokeColor=#ea580c;strokeWidth=1.5;fontStyle=1;fontSize=11;align=center;" vertex="1">
+          <mxGeometry x="300" y="660" width="260" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_nv_0" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#64748b;dashed=1;rounded=0;" edge="1" source="act_nv" target="uc00">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_0" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc01">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_1" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc02">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_2" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc03">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_3" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc04">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_4" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc05">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_5" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc06">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_6" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc07">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_7" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc08">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_8" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc09">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="e_adm_9" parent="1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#c2410c;rounded=0;" edge="1" source="act_adm" target="uc10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

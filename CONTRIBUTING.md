@@ -17,9 +17,9 @@ Hệ thống sử dụng mô hình phân nhánh chuẩn **Git Flow giản lượ
   develop (Nhánh tích hợp tính năng chung của cả nhóm)
    ▲
    ├────── feature/FE-01-frosted-header (Nhánh của Vòng Kiệt)
-   ├────── feature/POS-05-active-voucher (Nhánh của Nguyễn Thành Nam)
-   ├────── feature/DB-03-collation-search (Nhánh của Hà Anh Khoa)
-   └────── test/QA-03-zero-order-testing (Nhánh của Sơn Thái Phú Quý)
+   ├────── feature/POS-05-active-voucher (Nhánh của Nguyễn Nam)
+   ├────── feature/DB-03-collation-search (Nhánh của Hoàng Anh Khoa)
+   └────── test/QA-03-zero-order-testing (Nhánh của Sơn Trần Phú Quý)
 ```
 
 ### 1. Quy tắc đặt tên nhánh:
@@ -75,4 +75,4 @@ Mọi commit của thành viên phải tuân theo cú pháp:
    - Vào GitHub repo, chọn `Compare & pull request`.
    - Chọn Base: `develop` <- Compare: `feature/FE-ten-tinh-nang`.
    - Điền đầy đủ thông tin theo mẫu PR Template.
-   - Gắn tag Reviewer: **Nguyễn Văn Quang** (`@quang642000-lang`) để duyệt code trước khi merge vào nhánh chính.
+   - Gắn tag Reviewer: **Phạm Thiện Quang** (`@quang642000-lang`) để duyệt code trước khi merge vào nhánh chính.

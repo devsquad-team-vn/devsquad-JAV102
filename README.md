@@ -16,13 +16,13 @@
 
 Hệ thống được phát triển và vận hành bởi tổ chức **[devsquad-team-vn](https://github.com/devsquad-team-vn)**:
 
-| STT | Họ và Tên | Tài khoản GitHub | Email liên hệ | Vai trò đảm nhiệm | Phân hệ phụ trách chính |
-| :---: | :--- | :--- | :--- | :--- | :--- |
-| **1** | **Nguyễn Văn Quang** | [@quang642000-lang](https://github.com/quang642000-lang) | `quang642000@gmail.com` | **Project Leader & Architect** | Quản lý dự án, Kiến trúc HikariCP, Bộ lọc bảo mật & Phân quyền ACL |
-| **2** | **Vòng Kiệt** | [@vongkiet114](https://github.com/vongkiet114) | `vongkiet114@gmail.com` | **Lead Frontend Engineer** | Cổng Portal Khách hàng 2026, Giỏ hàng Click & Collect, Responsive Mobile |
-| **3** | **Nguyễn Thành Nam** | [@num00363](https://github.com/num00363) | `namntv00363@gmail.com` | **Backend Core Developer** | Phân hệ Quầy thu ngân POS, Quản lý Khách hàng tại quầy & VietQR |
-| **4** | **Hà Anh Khoa** | [@khoahatv00362-hash](https://github.com/khoahatv00362-hash) | `khoahatv00362@gmail.com` | **Database Administrator (DBA)** | Thiết kế 19 bảng SQL Server, Chuỗi Sequences tự tăng, Băm mật khẩu SHA-256 |
-| **5** | **Sơn Thái Phú Quý** | [@quystptv00383-commits](https://github.com/quystptv00383-commits) | `quystptv00383@gmail.com` | **Quality Assurance (QA) & Test** | Xây dựng bộ Integration Tests (8/8 Pass), Kiểm thử nghiệp vụ đơn 0đ & Voucher |
+| STT | Họ và Tên | MSSV | Tài khoản GitHub | Email liên hệ | Vai trò đảm nhiệm | Phân hệ phụ trách chính |
+| :---: | :--- | :---: | :--- | :--- | :--- | :--- |
+| **1** | **Phạm Thiện Quang** | `TV00472` | [@quang642000-lang](https://github.com/quang642000-lang) | `quang642000@gmail.com` | **Project Leader & Architect** | Quản lý dự án, Kiến trúc HikariCP, Bộ lọc bảo mật & Phân quyền ACL |
+| **2** | **Vòng Kiệt** | `TV00514` | [@vongkiet114](https://github.com/vongkiet114) | `vongkiet114@gmail.com` | **Lead Frontend Engineer** | Cổng Portal Khách hàng 2026, Giỏ hàng Click & Collect, Responsive Mobile |
+| **3** | **Nguyễn Nam** | `TV00363` | [@namntv00363](https://github.com/namntv00363) | `namntv00363@gmail.com` | **Backend Core Developer** | Phân hệ Quầy thu ngân POS, Quản lý Khách hàng tại quầy & VietQR |
+| **4** | **Hoàng Anh Khoa** | `TV00362` | [@khoahatv00362](https://github.com/khoahatv00362) | `khoahatv00362@gmail.com` | **Database Administrator (DBA)** | Thiết kế 19 bảng SQL Server, Chuỗi Sequences tự tăng, Băm mật khẩu SHA-256 |
+| **5** | **Sơn Trần Phú Quý** | `TV00383` | [@quystptv00383](https://github.com/quystptv00383) | `quystptv00383@gmail.com` | **Quality Assurance (QA) & Test** | Xây dựng bộ Integration Tests (8/8 Pass), Kiểm thử nghiệp vụ đơn 0đ & Voucher |
 
 ---
 

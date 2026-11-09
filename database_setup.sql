@@ -596,7 +596,7 @@ DECLARE @NV2 VARCHAR(20) = 'NV' + RIGHT('00000' + CAST(NEXT VALUE FOR seq_NhanVi
 DECLARE @NV3 VARCHAR(20) = 'NV' + RIGHT('00000' + CAST(NEXT VALUE FOR seq_NhanVien AS VARCHAR(10)), 5);
 
 INSERT INTO NHAN_VIEN (ma_nv, ma_vt, ho_ten, so_dien_thoai, email, ten_dang_nhap, mat_khau, trang_thai) VALUES
-(@NV1, 1, N'Lâm Minh Quang', '0346406405', 'quang642000@gmail.com', 'admin', '3db8fe209bece1d01983058cb34f2725e864980fc0e4b882bcdaf32fbd9f85d6', 1),
+(@NV1, 1, N'Phạm Thiện Quang', '0346406405', 'quang642000@gmail.com', 'admin', '3db8fe209bece1d01983058cb34f2725e864980fc0e4b882bcdaf32fbd9f85d6', 1),
 (@NV2, 2, N'Nguyễn Thu Ngân', '0912345678', 'staff@teapos.vn', 'staff', '14afe2e96d51ca55a8f0a51149ea8909b46c47690aafb01492843b5337ee70d9', 1),
 (@NV3, 1, N'Trần Tuấn Kiệt', '0988776655', 'kiet.tran@teapos.vn', 'admin1', 'e71bdd0570a76456695a4dfaa64d3ca3eddfa1d7d88fc2bb673636db08f8cd59', 1);
 
